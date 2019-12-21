@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #color:link {
+            /* a tag styling */
+            color: green;
+            background-color: red;
+            text-decoration: line-through;
+        }
+        #color:visited {
+            /* visited */
+            background-color: yellow;
+            color: blue;
+        }
+        #color:hover {
+            /* when u hover over the link */
+            background-color: cyan;
+            color: green;
+            text-decoration: none;
+        }
+        #color:active {
+            /* when you click and hold */
+            color: red;
+            background-color: chartreuse;
+        }
+        #btn {
+            display: block;
+            padding: 10px;
+            text-align: center;
+            background-color: rgba(0.5, 23,23,23);
+            color: white;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.google.com">this is a link</a><br>
+
+    <!-- target attribute specifies where to open the link -->
+    <a href="https://www.google.com" target="_blank">target _blank (opens in new tab)</a><br>
+    <a href="https://www.google.com" target="_self">target _self (opens in same tab)</a><br>
+    <!-- __self is default -->
+    <a href="https://www.google.com" target="_parent">target _parent (opens in parent frame)</a><br>
+    <a href="https://www.google.com" target="_top">target _top (opens in full body of window)</a><br><br><br><br>
+
+    <!-- colors in link -->
+    <a href="https://www.google.com" id="color"> google here </a>
+    <a href="https://www.google.com" id="btn">button</a>
+</body>
+</html>
